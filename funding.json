@@ -2,7 +2,7 @@
     "version": "v1.0.0",
     "entity": {
         "type": "individual",
-        "role": "core maintainer",
+        "role": "maintainer",
         "name": "Kuvam Bhardwaj",
         "email": "kuvambhardwaj0529@gmail.com",
         "phone": "",
