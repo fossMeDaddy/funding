@@ -17,7 +17,8 @@
         "name": "DBDaddy CLI [WIP, functional state]",
         "description": "A simple database management CLI tool. I created this project with the intent of spreading the opinion that you don't always need an ORM, a lot of the times, a good library and a good database management tool will do the trick!",
         "webpageUrl": {
-            "url": "https://github.com/fossMeDaddy/dbdaddy"
+            "url": "https://github.com/fossMeDaddy/dbdaddy",
+            "wellKnown": ""
         },
         "repositoryUrl": {
             "url": "https://github.com/fossMeDaddy/dbdaddy",
@@ -31,7 +32,8 @@
         "name": "Simple File Storage [WIP, very early non-functional state]",
         "description": "A wrapper on top of your existing storage solution like S3, cloudflare R2 or even local disk. provides a simpler way to manage permission-based access file systems.",
         "webpageUrl": {
-            "url": "https://github.com/fossMeDaddy/sfs-cli"
+            "url": "https://github.com/fossMeDaddy/sfs-cli",
+            "wellKnown": ""
         },
         "repositoryUrl": {
             "url": "https://github.com/fossMeDaddy/sfs-cli",
@@ -45,7 +47,8 @@
         "name": "Giga-Byte Cache [WIP, core functional state]",
         "description": "A simple LRU in-memory cache on top of local disk. Think Redis, but LRU, on top disk and written in Zig.",
         "webpageUrl": {
-            "url": "https://github.com/fossMeDaddy/gbcache"
+            "url": "https://github.com/fossMeDaddy/gbcache",
+            "wellKnown": ""
         },
         "repositoryUrl": {
             "url": "https://github.com/fossMeDaddy/gbcache",
