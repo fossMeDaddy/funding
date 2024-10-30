@@ -18,7 +18,7 @@
         "description": "A simple database management CLI tool. I created this project with the intent of spreading the opinion that you don't always need an ORM, a lot of the times, a good library and a good database management tool will do the trick!",
         "webpageUrl": {
             "url": "https://github.com/fossMeDaddy/dbdaddy",
-            "wellKnown": ""
+            "wellKnown": "https://github.com/fossMeDaddy/dbdaddy/blob/main/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
             "url": "https://github.com/fossMeDaddy/dbdaddy",
