@@ -1,0 +1,106 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "individual",
+        "role": "core maintainer",
+        "name": "Kuvam Bhardwaj",
+        "email": "kuvambhardwaj0529@gmail.com",
+        "phone": "",
+        "description": "I am a self-taught developer, I like satirical humour. I believe in low-level control and solid abstractions. As FOSSMeDaddy on Github, I intend to provide a rethinking of the current practices in developer tools and developer-focussed services.",
+        "webpageUrl": {
+            "url": "https://github.com/fossMeDaddy",
+            "wellKnown": ""
+        }
+    },
+    "projects": [{
+        "guid": "dbdaddy",
+        "name": "DBDaddy CLI [WIP, functional state]",
+        "description": "A simple database management CLI tool. I created this project with the intent of spreading the opinion that you don't always need an ORM, a lot of the times, a good library and a good database management tool will do the trick!",
+        "webpageUrl": {
+            "url": "https://github.com/fossMeDaddy/dbdaddy"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/fossMeDaddy/dbdaddy",
+            "wellKnown": ""
+        },
+        "licenses": ["BSD-3-Clause"],
+        "tags": ["database", "postgresql", "mysql", "go", "cli"]
+    },
+    {
+        "guid": "sfs",
+        "name": "Simple File Storage [WIP, very early non-functional state]",
+        "description": "A wrapper on top of your existing storage solution like S3, cloudflare R2 or even local disk. provides a simpler way to manage permission-based access file systems.",
+        "webpageUrl": {
+            "url": "https://github.com/fossMeDaddy/sfs-cli"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/fossMeDaddy/sfs-cli",
+            "wellKnown": ""
+        },
+        "licenses": ["BSD-3-Clause"],
+        "tags": ["storage", "go", "cli", "api"]
+    },
+    {
+        "guid": "gbcache",
+        "name": "Giga-Byte Cache [WIP, core functional state]",
+        "description": "A simple LRU in-memory cache on top of local disk. Think Redis, but LRU, on top disk and written in Zig.",
+        "webpageUrl": {
+            "url": "https://github.com/fossMeDaddy/gbcache"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/fossMeDaddy/gbcache",
+            "wellKnown": ""
+        },
+        "licenses": ["BSD-3-Clause"],
+        "tags": ["cache", "database", "zig", "api"]
+    }],
+    "funding": {
+        "channels": [
+            {
+              "guid": "upi",
+              "type": "payment-provider",
+              "address": "kuvambhardwaj0529@okaxis",
+              "description": "UPI payment provider"
+            },
+            {
+                "guid": "bank",
+                "type": "bank",
+                "address": "",
+                "description": "Will accept direct bank transfers. Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "hosting-monthly",
+                "status": "active",
+                "name": "Hosting support",
+                "description": "This will cover the monthly server hosting costs for the projects.",
+                "amount": 250,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["mypay"]
+            },
+            {
+                "guid": "developer-time",
+                "status": "active",
+                "name": "Developer compensation",
+                "description": "This will cover the cost of one developer working part-time on the projects.",
+                "amount": 250,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["bank", "upi"]
+            },
+            {
+                "guid": "angel-plan",
+                "status": "active",
+                "name": "Goodwill plan",
+                "description": "Pay anything you wish to show your goodwill for the project.",
+                "amount": 0,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["bank", "upi"]
+            }
+        ],
+        "history": []
+    }
+}
